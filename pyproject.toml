@@ -40,7 +40,7 @@ dev = [
     { include-group = "typing" },
 ]
 ruff = ["ruff"]
-tests = ["pytest >= 8.3", "pytest-cov >= 5.0", "pytest-httpx"]
+tests = ["pytest >= 8.3", "pytest-cov >= 5.0", "pytest-httpx >= 0.35"]
 typing = ["pyright"]
 
 
